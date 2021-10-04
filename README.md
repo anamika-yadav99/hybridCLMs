@@ -23,7 +23,7 @@ Supporting code for the paper «Leveraging molecular structure and bioactivity w
 First, you need to [clone the repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository):
 
 ```
-git clone git@github.com:michael1788/hybridCLMs.git
+git clone git@github.com:ETHmodlab/hybridCLMs.git
 ```
 Then, you can run the following command, which will create a conda virtual environment and install all the needed packages (if you don't have conda, you can follow the instructions to install it [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)).
 
