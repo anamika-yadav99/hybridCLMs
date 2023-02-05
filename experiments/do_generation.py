@@ -135,6 +135,8 @@ if __name__ == '__main__':
     else:
         save_path = f'{dir_exp}/{mode}/{exp_name}/generated_data/'
         dir_ckpts = f'{dir_exp}/{mode}/{exp_name}/models/'
+        print(dir_exp)
+        print(dir_ckpts)
     
     os.makedirs(save_path, exist_ok=True)
     ####################################
