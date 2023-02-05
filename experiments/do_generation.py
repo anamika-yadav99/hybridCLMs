@@ -128,6 +128,7 @@ if __name__ == '__main__':
     ####################################
     # paths to save data and to checkpoints
     dir_exp = str(config['EXPERIMENTS']['dir'])
+    dir_exp = dir_exp[0:-1]
     exp_name = configfile.split('/')[-1].replace('.ini','')
     if repeat>0:
         save_path = f'{dir_exp}/{mode}/{exp_name}/generated_data/{repeat}/'
